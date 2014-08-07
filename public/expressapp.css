@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  font-size: 1em;
+  font-family: sans-serif;
+  background:url('u7map.jpg');
+  background-size: 1500px;
+  color:#EFFBF2;
+}
+
+h1 {
+  padding-top: 40px;
+  text-align: center;
+  color: silver;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+  color: silver;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+.gameContainer {
+  width:900px;
+  height:600px;
+  margin:10px auto;
+  padding:5px;
+  border-radius:8px;
+  border:black 0px solid;
+  background-color:rgba(0,0,0,0.8);
+  overflow-y:scroll;
+}
+
+.articleContainer {
+  margin:auto;
+  width:500px;
+  height:100%;
+}
+
+.boxArt { 
+  width:145px;
+  float:right;
+  padding-left:5px;
+}
