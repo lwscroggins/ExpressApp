@@ -1,4 +1,9 @@
 module.exports = function(grunt) {
+
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-express-server');
+  grunt.loadNpmTasks('grunt-casper');
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jshint: {
@@ -20,8 +25,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-
+  
   grunt.registerTask('test', ['jshint']);
   grunt.registerTask('default', ['jshint']);
 };

@@ -3,10 +3,13 @@
   "description": "a hello world web application written in express",
   "version": "0.0.1",
   "dependencies": {
-    "express": "^4.0"
+    "casper": "^0.1.1",
+    "express": "^4.0",
+    "phantomjs": "^1.9.7-15"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-casper": "^0.3.10",
     "grunt-contrib-jshint": "^0.10.0"
   }
 }
